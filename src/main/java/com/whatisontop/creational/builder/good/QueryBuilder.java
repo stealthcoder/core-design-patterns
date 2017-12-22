@@ -1,4 +1,11 @@
 package com.whatisontop.creational.builder.good;
 
-public class QueryBuilder {
+public interface QueryBuilder {
+
+    void from(String from);
+
+    void where(String where);
+
+    Query getQuery();
+
 }

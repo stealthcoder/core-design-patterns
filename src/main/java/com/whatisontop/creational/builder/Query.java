@@ -1,4 +1,9 @@
 package com.whatisontop.creational.builder;
 
-public class Query {
+/**
+ * this is the "Product" interface in real applications
+ */
+public interface Query {
+
+    void execute();
 }
